@@ -40,9 +40,9 @@ Com isso em mão era possivel criar trajetórias e aplicar algoritimos de contro
 
 Com a biblioteca [Pedro Patching](https://pedropathing.com/) os caminhos são gerados a partir de curvas de bezier e são aplicados 3 algoritimos de PID (lateral, frontal e de posição), com adição de uma correção a força centripeda. Os caminhos podem ser criados apartir do [Pedro Patching Visualizer](https://visualizer.pedropathing.com/).
 
-
+<div aling="center">
 https://github.com/user-attachments/assets/2062b737-4e74-4816-8902-5f3e7d7101af
-
+</div>
 
 Observe os primeiros testes da correção de caminhos com um primeiro protótipo:
 
