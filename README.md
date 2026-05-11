@@ -101,7 +101,7 @@ Utilizamos a biblioteca OpenCv e com o ColorBlob Detector, basicamente indentifi
 
 <br>
 
-<img width="500px" src="assets/images/limelight.jpg">
+<img width="1000px" src="assets/images/limelight.jpg">
 
 
 
