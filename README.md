@@ -46,9 +46,9 @@ https://github.com/user-attachments/assets/2062b737-4e74-4816-8902-5f3e7d7101af
 
 Observe os primeiros testes da correção de caminhos com um primeiro protótipo:
 
-<video controls muted autoplay width="500" preload="metadata">
-<source src="assets/videos/pathing-correction.mp4" type="video/mp4">
-</video>
+
+https://github.com/user-attachments/assets/792c633d-ddad-4b84-b477-c624ee670848
+
 
 <img width="500px" src="assets/images/paths.jpg">
 
@@ -83,9 +83,9 @@ Ambos foram implementados utilizando a biblioteca [NextFTC-0.6](https://v0.nextf
 
 ### Resultado:
 
-<video controls muted autoplay width="250" preload="metadata">
-<source src="assets/videos/pid.mp4" type="video/mp4">
-</video>
+
+https://github.com/user-attachments/assets/329a2a23-8ccb-4523-9826-523bd5d730a8
+
 
 ## Computação Visual
 
@@ -95,9 +95,9 @@ Utilizamos a biblioteca OpenCv e com o ColorBlob Detector, basicamente indentifi
 
 <br>
 
-<video controls muted autoplay width="250" preload="metadata">
-<source src="assets/videos/coleta.mp4" type="video/mp4">
-</video>
+
+https://github.com/user-attachments/assets/267b23d4-f4fb-4d22-b8fd-2ddf04a26233
+
 
 <br>
 
