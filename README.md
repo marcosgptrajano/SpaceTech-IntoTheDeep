@@ -47,8 +47,12 @@ https://github.com/user-attachments/assets/2062b737-4e74-4816-8902-5f3e7d7101af
 Observe os primeiros testes da correção de caminhos com um primeiro protótipo:
 
 <div aling="center">
-https://github.com/user-attachments/assets/792c633d-ddad-4b84-b477-c624ee670848
+
 </div>
+
+<video>
+    <source srcset="https://github.com/user-attachments/assets/792c633d-ddad-4b84-b477-c624ee670848">
+</video>
 
 <img width="1000px" src="assets/images/paths.jpg">
 
