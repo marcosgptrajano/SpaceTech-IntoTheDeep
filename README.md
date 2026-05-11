@@ -34,7 +34,7 @@ Em breve...
 
 Utilizamos os 2 Pods de odometria para estimar a posição em tempo real do robô em relação a arena, juntamente com o Pinpont Odometry Computer que tem um IMU integrado; assim foi possível gerar uma posição cartesiana com coordenadas X e Y e a orientação em graus do robô.
 
-<img width="300px" src="assets/images/bottom-view.png">
+<p style="text-align: center"><img width="500px" src="assets/images/bottom-view.png"></p>
 
 Com isso em mão era possivel criar trajetórias e aplicar algoritimos de controle durante o curso do robô no periodo autonomo garantindo que o percurso realizado fosse sempre o mesmo indenpendentes das váriações de ambiente externo ou interno. 
 
@@ -50,7 +50,7 @@ Observe os primeiros testes da correção de caminhos com um primeiro protótipo
 https://github.com/user-attachments/assets/792c633d-ddad-4b84-b477-c624ee670848
 
 
-<img width="500px" src="assets/images/paths.jpg">
+<img width="1000px" src="assets/images/paths.jpg">
 
 
 ## Controle PID + FeedFoward
