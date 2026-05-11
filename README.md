@@ -40,16 +40,12 @@ Com isso em mão era possivel criar trajetórias e aplicar algoritimos de contro
 
 Com a biblioteca [Pedro Patching](https://pedropathing.com/) os caminhos são gerados a partir de curvas de bezier e são aplicados 3 algoritimos de PID (lateral, frontal e de posição), com adição de uma correção a força centripeda. Os caminhos podem ser criados apartir do [Pedro Patching Visualizer](https://visualizer.pedropathing.com/).
 
-<div aling="center">
+
 https://github.com/user-attachments/assets/2062b737-4e74-4816-8902-5f3e7d7101af
-</div>
 
 
-
-<div aling="center">
 Observe os primeiros testes da correção de caminhos com um primeiro protótipo:
 https://github.com/user-attachments/assets/792c633d-ddad-4b84-b477-c624ee670848
-</div>
 
 
 
@@ -88,10 +84,7 @@ Ambos foram implementados utilizando a biblioteca [NextFTC-0.6](https://v0.nextf
 
 ### Resultado:
 
-<div aling="center">
 https://github.com/user-attachments/assets/329a2a23-8ccb-4523-9826-523bd5d730a8
-</div>
-
 
 ## Computação Visual
 
@@ -101,9 +94,8 @@ Utilizamos a biblioteca OpenCv e com o ColorBlob Detector, basicamente indentifi
 
 <br>
 
-<div aling="center">
+
 https://github.com/user-attachments/assets/267b23d4-f4fb-4d22-b8fd-2ddf04a26233
-</div>
 
 <br>
 
