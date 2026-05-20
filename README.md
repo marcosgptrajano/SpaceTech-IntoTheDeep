@@ -214,15 +214,13 @@ https://github.com/user-attachments/assets/6ec970c4-e6fa-420e-a925-03d73556fa0b
 
 ## Créditos
 
-Projeto desenvolvido pela equipe .
-
 Esse projeto foi desenvolvido colaborativamente pelos membros da equipe **SpaceTech 23504** durante a  temporada INTO THE DEEP.
 
 | Name | Role | Contributions | Contato 
 |---|---|---|---|
 | Marcos Trajano | Progamador | Sistemas autonomos, Computação Visual, Sistemas de contole e Eletônica | 
-| Yuri Matheus| Capitão de Engenharia | Estrátegia de jogo, desenvolvimento de solução, teste de componentes |
-| Pablo Danilo |  Capitão do | Criação do protifolio, Organização de Projetos, Capitação de patrocinio|
+| Yuri Matheus| Líder de Engenharia | Estrátegia de jogo, desenvolvimento de solução, teste de componentes |
+| Pablo Danilo |  Líder de Outreach | Criação do protifolio, Organização de Projetos, Capitação de patrocinio |
 | Maria Clara | Gestora | Marketing, Financeiro |
 | Felipe Moreira | Designer 3D | Design dos Mecanismos, Impressão 3d |
 | Henderson Pedro | Designer 3D | Design dos Mecanismos, Corte a laser |
