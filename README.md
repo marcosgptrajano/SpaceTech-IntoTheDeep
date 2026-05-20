@@ -93,6 +93,10 @@ Para enfrentar a versatilidade necessária no Into The Deep, projetamos um robô
 
 Inspirada no sistema diferencial dos automóveis, a nossa garra foi desenvolvida para capturar elementos em qualquer ângulo, reduzindo o tempo de coleta. Utilizando o Limelight 3A para visão computacional e um diferencial indireto no mecanismo, o Star Reach V3 oferece 3 graus de liberdade, permitindo um alinhamento automático preciso.
 
+### Demonstração Intake: 
+
+
+
 ### Outtake (Pontuação): Shooting Star V3
 
 <p align="center">
@@ -101,6 +105,11 @@ Inspirada no sistema diferencial dos automóveis, a nossa garra foi desenvolvida
 
 O Shooting Star V3 incorpora o mecanismo CV4B (Coaxial Virtual Four-Bar), que permite um movimento compacto e coordenado entre o braço e a garra. Com o uso de engrenagem inversora, a nossa equipe alcançou uma maior precisão e velocidade no disparo dos elementos. Cada etapa do design foi validada: do esboço ao protótipo, até a iteração final, garantindo eficiência no desempenho.
 
+
+### Demonstração Outtake: 
+
+
+<br>
 ---
 
 ## Software e Inteligência
@@ -188,4 +197,21 @@ Utilizamos a biblioteca OpenCV e, com o ColorBlob Detector, identificamos regiõ
 
 ## Créditos
 
-Projeto desenvolvido pela equipe **SpaceTech 23504**.
+Projeto desenvolvido pela equipe .
+
+Esse projeto foi desenvolvido colaborativamente pelos membros da equipe **SpaceTech 23504** durante a  temporada INTO THE DEEP.
+
+| Name | Role | Contributions | Contato 
+|---|---|---|---|
+| Marcos Trajano | Progamador | Sistemas autonomos, Computação Visual, Sistemas de contole e Eletônica | 
+| Yuri Matheus| Capitão de Engenharia | Estrátegia de jogo, desenvolvimento de solução, teste de componentes |
+| Pablo Danilo |  Capitão do | Criação do protifolio, Organização de Projetos, Capitação de patrocinio|
+| Maria Clara | Gestora | Marketing, Financeiro |
+| Felipe Moreira | Designer 3D | Design dos Mecanismos, Impressão 3d |
+| Henderson Pedro | Designer 3D | Design dos Mecanismos, Corte a laser |
+
+<br>
+<br>
+<p align="center">
+  <img width="800px" src="assets/images/our-team.jpg">
+</p>
