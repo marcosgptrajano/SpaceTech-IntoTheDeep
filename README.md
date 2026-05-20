@@ -101,10 +101,6 @@ Inspirada no sistema diferencial dos automóveis, a nossa garra foi desenvolvida
   </a>
 </p>
 
-
-https://github.com/user-attachments/assets/b7defe61-2e17-4f4e-9bdc-3461cfbcb212
-
-
 ### Outtake (Pontuação): Shooting Star V3
 
 <p align="center">
@@ -121,8 +117,6 @@ O Shooting Star V3 incorpora o mecanismo CV4B (Coaxial Virtual Four-Bar), que pe
     <img width="700px" src="assets/images/1.png">
   </a>
 </p>
-
-https://github.com/user-attachments/assets/68815073-1c05-46ef-be1b-91d6254df0e5
 
 <br>
 ---
