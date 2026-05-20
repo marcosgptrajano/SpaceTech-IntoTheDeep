@@ -202,7 +202,8 @@ Utilizamos a biblioteca OpenCV e, com o ColorBlob Detector, identificamos regiõ
 
 https://github.com/user-attachments/assets/6ec970c4-e6fa-420e-a925-03d73556fa0b
 
-<br>
+
+
 ---
 
 ## Créditos
