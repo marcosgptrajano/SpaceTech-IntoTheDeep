@@ -1,3 +1,6 @@
 [submodule "Premier-Code"]
 	path = Premier-Code
 	url = https://github.com/MarcosPompilio/23504-Premier-Code-Into-The-Deep.git
+[submodule "ftc-code"]
+	path = ftc-code
+	url = https://github.com/spacetechftc/23504-IntoTheDee-Nacional.git
