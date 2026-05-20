@@ -193,6 +193,13 @@ Utilizamos a biblioteca OpenCV e, com o ColorBlob Detector, identificamos regiõ
 
 [Assista à detecção visual](https://github.com/user-attachments/assets/267b23d4-f4fb-4d22-b8fd-2ddf04a26233)
 
+
+## Demonstração Autonomo:
+<br>
+
+
+
+<br>
 ---
 
 ## Créditos
