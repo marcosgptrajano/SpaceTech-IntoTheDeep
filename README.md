@@ -88,7 +88,7 @@ Para enfrentar a versatilidade necessária no Into The Deep, projetamos um robô
 ### Intake (Coleta): Star Reach V3
 
 <p align="center">
-  <img width="500px" src="assets/images/Intake.png">
+  <img width="600px" src="assets/images/Intake.png">
 </p>
 
 Inspirada no sistema diferencial dos automóveis, a nossa garra foi desenvolvida para capturar elementos em qualquer ângulo, reduzindo o tempo de coleta. Utilizando o Limelight 3A para visão computacional e um diferencial indireto no mecanismo, o Star Reach V3 oferece 3 graus de liberdade, permitindo um alinhamento automático preciso.
@@ -97,14 +97,14 @@ Inspirada no sistema diferencial dos automóveis, a nossa garra foi desenvolvida
 
 <p align="center">
   <a href="https://github.com/user-attachments/assets/b7defe61-2e17-4f4e-9bdc-3461cfbcb212">
-    <img width="700px" src="assets/images/2.png">
+    <img width="500px" src="assets/images/2.png">
   </a>
 </p>
 
 ### Outtake (Pontuação): Shooting Star V3
 
 <p align="center">
-  <img width="500px" src="assets/images/outtake.png">
+  <img width="600px" src="assets/images/outtake.png">
 </p>
 
 O Shooting Star V3 incorpora o mecanismo CV4B (Coaxial Virtual Four-Bar), que permite um movimento compacto e coordenado entre o braço e a garra. Com o uso de engrenagem inversora, a nossa equipe alcançou uma maior precisão e velocidade no disparo dos elementos. Cada etapa do design foi validada: do esboço ao protótipo, até a iteração final, garantindo eficiência no desempenho.
@@ -114,7 +114,7 @@ O Shooting Star V3 incorpora o mecanismo CV4B (Coaxial Virtual Four-Bar), que pe
 
 <p align="center">
   <a href="https://github.com/user-attachments/assets/68815073-1c05-46ef-be1b-91d6254df0e5">
-    <img width="700px" src="assets/images/1.png">
+    <img width="500px" src="assets/images/1.png">
   </a>
 </p>
 
