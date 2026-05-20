@@ -96,6 +96,8 @@ Inspirada no sistema diferencial dos automóveis, a nossa garra foi desenvolvida
 ### Demonstração Intake: 
 
 
+https://github.com/user-attachments/assets/b7defe61-2e17-4f4e-9bdc-3461cfbcb212
+
 
 ### Outtake (Pontuação): Shooting Star V3
 
@@ -108,6 +110,7 @@ O Shooting Star V3 incorpora o mecanismo CV4B (Coaxial Virtual Four-Bar), que pe
 
 ### Demonstração Outtake: 
 
+https://github.com/user-attachments/assets/68815073-1c05-46ef-be1b-91d6254df0e5
 
 <br>
 ---
@@ -197,7 +200,7 @@ Utilizamos a biblioteca OpenCV e, com o ColorBlob Detector, identificamos regiõ
 ## Demonstração Autonomo:
 <br>
 
-
+https://github.com/user-attachments/assets/6ec970c4-e6fa-420e-a925-03d73556fa0b
 
 <br>
 ---
