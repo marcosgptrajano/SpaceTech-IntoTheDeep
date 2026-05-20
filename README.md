@@ -10,26 +10,50 @@ Documentação pública do processo de engenharia, projetos e impacto da equipe 
 
 </div>
 
+Durante a temporada **Into The Deep**, a equipe desenvolveu soluções integradas de mecânica, software, odometria e visão computacional para elevar o desempenho do robô em partidas autônomas e teleoperadas. Esta documentação apresenta os principais subsistemas, as tecnologias utilizadas e os resultados alcançados.
+
+
 ---
 
 ## Sumário
-- [Visão geral](#visão-geral)
-- [Competições](#competições)
-- [Mecânica](#mecânica)
-- [Software](#software)
-- - [Odometria](#odometria)
-- - [Controle PID + FeedForward](#controle-pid--feedforward)
-- - [Computação visual](#computação-visual)
+- [O que é o FIRST Tech Challenge?](#o-que-é-o-first-tech-challenge)
+- [O Desafio: Into The Deep](#o-desafio-into-the-deep)
+- [Prêmios e Conquistas](#prêmios-e-conquistas)
+- [Engenharia Mecânica](#engenharia-mecânica)
+  - [DriveTrain](#drivetrain)
+  - [Intake (Coleta)](#intake-coleta)
+  - [Outtake (Pontuação)](#outtake-pontuação)
+- [Software e Inteligência](#software-e-inteligência)
+  - [Sensores utilizados](#sensores-utilizados)
+  - [Odometria](#odometria)
+  - [Controle PID + FeedForward](#controle-pid--feedforward)
+  - [Computação visual](#computação-visual)
+- [Créditos](#créditos)
 
 ---
 
-## Visão geral
+## O que é o FIRST Tech Challenge?
 
-Durante a temporada **Into The Deep**, a equipe desenvolveu soluções integradas de mecânica, software, odometria e visão computacional para elevar o desempenho do robô em partidas autônomas e teleoperadas. Esta documentação apresenta os principais subsistemas, as tecnologias utilizadas e os resultados alcançados.
+O FIRST Tech Challenge (FTC) é uma competição internacional de robótica para estudantes do ensino médio. O desafio não é apenas construir um robô, mas gerir uma equipe como uma empresa de engenharia, documentando processos, desenvolvendo tecnologia de ponta e gerando impacto social através do "Gracious Professionalism" (Profissionalismo Ético).
+
+## O Desafio: Into The Deep
+
+A temporada 2024-2025, Into The Deep, transporta as equipes para uma exploração subaquática fictícia. O objetivo central é coletar e processar "recursos" marinhos:
+
+- Samples (Amostras): Peças plásticas coloridas que devem ser depositadas em cestas (Baskets) em diferentes alturas.
+
+- Specimens (Espécimes): Peças que devem ser "presas" em barras horizontais (Submersible) através de ganchos.
+
+- Final: No fim da partida, os robôs devem escalar as barras da estrutura central para ganhar pontos extras, simulando a subida das profundezas.
+
+
+### Assista o vído do desafio da temporada:
+[![Watch the video](https://img.youtube.com/vi/ewlDPvRK4U4/maxresdefault.jpg)](https://www.youtube.com/watch?v=ewlDPvRK4U4)
+
 
 ---
 
-## Competições
+## Prêmios e Conquistas
 
 ### Run For The Robots Premier Event - Kentucky, EUA
 - **Inspire Award**
@@ -40,18 +64,49 @@ Durante a temporada **Into The Deep**, a equipe desenvolveu soluções integrada
 ### Torneio Regional SESI de Robótica - Pernambuco
 - **Winning Alliance - Captain**
 - **Design Award**
+<br>
 
 ---
 
-## Mecânica
+## Engenharia Mecânica
 
-Em breve.
+<p align="center">
+  <img width="700px" src="assets/images/visão-geral.png">
+</p>
+
+Para enfrentar a versatilidade necessária no Into The Deep, projetamos um robô de baixo centro de massa e alta extensão vertical.
+
+### Subsistemas Principais
+
+- Intake (Coleta): Utilizamos um sistema de slides lineares que estende o alcance em 0,7 metros. A garra possui um sistema diferencial que permite rotação em 3 eixos, essencial para capturar objetos em qualquer ângulo no chão sem a necessidade de reposicionar o robô inteiro.
+
+- Outtake (Pontuação): O sistema de elevação atinge até 1,5 metros de altura. Implementamos um braço de 4 barras virtuais autoalinhante, garantindo que a garra mantenha o ângulo correto de depósito independentemente da altura do elevador.
+
+- DriveTrain: Base de tração holonômica para movimentação ágil e precisa em qualquer direção.
+
+### DriveTrain
+### Intake (Coleta): Star Reach V3
+
+<p align="center">
+  <img width="500px" src="assets/images/Intake.png">
+</p>
+
+Inspirada no sistema diferencial dos automóveis, a nossa garra foi desenvolvida para capturar elementos em qualquer ângulo, reduzindo o tempo de coleta. Utilizando o Limelight 3A para visão computacional e um diferencial indireto no mecanismo, o Star Reach V3 oferece 3 graus de liberdade, permitindo um alinhamento automático preciso.
+
+### Outtake (Pontuação): Shooting Star V3
+
+<p align="center">
+  <img width="500px" src="assets/images/outtake.png">
+</p>
+
+O Shooting Star V3 incorpora o mecanismo CV4B (Coaxial Virtual Four-Bar), que permite um movimento compacto e coordenado entre o braço e a garra. Com o uso de engrenagem inversora, a nossa equipe alcançou uma maior precisão e velocidade no disparo dos elementos. Cada etapa do design foi validada: do esboço ao protótipo, até a iteração final, garantindo eficiência no desempenho.
 
 ---
 
-## Software
+## Software e Inteligência
 
 ### Sensores utilizados
+
 - 2x [Swingarm Odometry Pod](https://www.gobilda.com/swingarm-odometry-pod-48mm-wheel/).
 - 1x [Pinpoint V2 Odometry Computer](https://www.gobilda.com/pinpoint-v2-odometry-computer-imu-sensor-fusion-for-2-wheel-odometry/).
 - 2x [Touch Sensor](https://www.revrobotics.com/rev-31-1425/).
@@ -119,7 +174,7 @@ Ambos foram implementados utilizando a biblioteca [NextFTC-0.6](https://v0.nextf
 
 ## Computação visual
 
-Utilizamos a Limelight 3A, uma câmera com integração de IA, para automatizar alguns processos durante o jogo. O objetivo era identificar as amostras de jogo e sua orientação, para definir a posição correta da garra e, assim, economizar tempo e aumentar a confiabilidade.
+Utilizamos a Limelight 3A, uma câmera com integração de IA, para automatizar alguns processos durante o jogo. O objetivo era identificar as amostras de jogo e sua orientação para definir a posição correta da garra e, assim, economizar tempo e aumentar a confiabilidade.
 
 Utilizamos a biblioteca OpenCV e, com o ColorBlob Detector, identificamos regiões com grande quantidade de pixels de uma cor específica, como vermelho, azul ou amarelo, e criamos um contorno retangular nessa área. Se a largura do retângulo for maior que a altura, a amostra está na horizontal; caso contrário, está na vertical. A partir disso, criamos um gatilho para que a garra descesse na posição predefinida de coleta.
 
@@ -132,4 +187,5 @@ Utilizamos a biblioteca OpenCV e, com o ColorBlob Detector, identificamos regiõ
 ---
 
 ## Créditos
+
 Projeto desenvolvido pela equipe **SpaceTech 23504**.
